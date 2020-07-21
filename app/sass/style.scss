@@ -31,6 +31,8 @@ body {
 body {
   min-width: 320px;
   overflow-x: hidden;
+  font-family: "proximaNova", sans-serif;
+  font-weight: 400;
 }
 
 .wrapper {
@@ -46,8 +48,12 @@ body {
   padding: 0px 15px;
   width: 100%;
 }
+.content {
+  flex: 1 1 auto;
+}
 
 @import "blocks/header";
+@import "blocks/burder";
 @import "blocks/footer";
 // adaptive
 @import "blocks/media";
