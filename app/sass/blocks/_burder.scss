@@ -10,14 +10,6 @@
   top: 0;
   left: 0;
 }
-.header__body {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
-  z-index: 4;
-}
 .header__logo {
   position: relative;
   z-index: 4;
@@ -95,7 +87,6 @@
     height: 100%;
     overflow: auto; // для возмржности скрола в горизонтальном положении
     background-color: rgba(0, 0, 0, 0.9);
-    // padding: 70px 10px 20px 10px;
     transition: all 0.3s ease 0s;
     z-index: 3;
   }
