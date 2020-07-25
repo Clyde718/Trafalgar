@@ -1,0 +1,88 @@
+.article {
+  padding: 222px 0px 201px 0px;
+  background: url(../img/dest/element.png);
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 0%;
+  background-size: contain;
+  position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    bottom: -4%;
+    right: 91px;
+    background: url(../img/dest/dots.png);
+    width: 132px;
+    height: 115px;
+  }
+  @media (max-width: 576px) {
+    padding: 122px 0px 72px 0px;
+  }
+  &__title {
+    text-align: center;
+    margin: 0px 0px 79px 0px;
+  }
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -18px;
+  }
+
+  &__columns {
+    padding: 0px 18px;
+    margin: 0px 0px 35px 0px;
+    flex: 0 1 33.333%;
+    @media (max-width: 1076px) {
+      flex: 0 1 50%;
+    }
+    @media (max-width: 767px) {
+      flex: 0 1 100%;
+    }
+  }
+
+  &__item {
+    background: $text-color-temp;
+    box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
+    border-radius: 20px;
+    overflow: hidden;
+    @media (max-width: 1076px) {
+      max-width: 350px;
+      margin: 0 auto;
+    }
+  }
+
+  &__img {
+    min-height: 240px;
+    background: center / cover no-repeat;
+  }
+
+  &__body {
+    padding: 24px 66px 35px 33px;
+    @media (max-width: 576px) {
+      padding: 15px;
+    }
+  }
+
+  &__headline {
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 32px;
+    color: $logo-color;
+  }
+
+  &__paragraph {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7d7987;
+    margin: 12px 0px 25px 0px;
+  }
+
+  &__btn-mini {
+  }
+
+  &__btn {
+    text-align: center;
+  }
+}

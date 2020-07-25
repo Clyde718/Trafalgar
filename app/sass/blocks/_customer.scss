@@ -1,0 +1,109 @@
+.customer {
+  padding: 266px 0px 0px 0px;
+  background: url(../img/dest/dots.png) 16% 90% no-repeat;
+  @media (max-width: 576px) {
+    padding: 70px 0px 0px 0px;
+  }
+  &__body {
+    min-height: 425px;
+    width: 100%;
+    background: url(../img/dest/cust-bg.png) 104% -5% no-repeat,
+      linear-gradient(191.49deg, #67c3f3 9.05%, #5a98f2 76.74%);
+    border-radius: 24px;
+    padding: 64px 118px 89px 118px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media (max-width: 1044px) {
+      padding: 34px 68px 49px 68px;
+      min-height: 325px;
+    }
+    @media (max-width: 876px) {
+      padding: 24px 48px 39px 48px;
+    }
+    @media (max-width: 576px) {
+      padding: 24px 18px 29px 18px;
+    }
+  }
+
+  &__title {
+  }
+
+  &__slider {
+    min-width: 0;
+  }
+
+  &__slider-item {
+    min-width: 0;
+  }
+
+  &__slider-row {
+    display: flex;
+    margin: 0px -10px;
+    @media (max-width: 705px) {
+      flex-direction: column;
+    }
+  }
+
+  &__slider-columns {
+    padding: 0px 10px;
+    flex: 0 1 50%;
+    &:first-child {
+      display: flex;
+      align-items: center;
+    }
+    @media (max-width: 705px) {
+      margin: 30px 0px;
+    }
+    @media (max-width: 576px) {
+      margin: 15px 0px;
+    }
+  }
+
+  &__slider-img {
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    border: 4px solid $text-color-temp;
+    background: center / cover no-repeat;
+    @media (max-width: 1044px) {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  &__slider-person {
+    padding: 0px 0px 0px 29px;
+    @media (max-width: 1044px) {
+      padding: 0px 0px 0px 19px;
+    }
+  }
+
+  &__slider-name {
+    font-weight: bold;
+    font-size: 22px;
+    color: $text-color-temp;
+    @media (max-width: 1044px) {
+      font-size: 18px;
+    }
+  }
+
+  &__slider-position {
+    font-size: 18px;
+    line-height: 48px;
+    color: rgba(255, 255, 255, 0.85);
+    @media (max-width: 1044px) {
+      font-size: 16px;
+      line-height: 38px;
+    }
+  }
+
+  &__slider-review {
+    font-size: 19px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.9);
+    @media (max-width: 1044px) {
+      font-size: 16px;
+    }
+  }
+}

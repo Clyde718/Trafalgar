@@ -31,7 +31,7 @@ body {
 body {
   min-width: 320px;
   overflow-x: hidden;
-  font-family: "proximaNova", sans-serif;
+  font-family: "Muli";
   font-weight: 400;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 1247px;
   margin: 0 auto;
   padding: 0px 15px;
   width: 100%;
@@ -52,4 +52,11 @@ body {
   flex: 1 1 auto;
 }
 
+@import "blocks/header";
 @import "blocks/burder";
+@import "blocks/our-services";
+@import "blocks/providers";
+@import "blocks/mobile-apps";
+@import "blocks/customer";
+@import "blocks/article";
+@import "blocks/footer";
